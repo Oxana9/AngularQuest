@@ -1,0 +1,6 @@
+export const geoObject = [
+{name: 'Памятник собачкам', iconImageHref: 'https://image.flaticon.com/icons/svg/1025/1025357.svg', iconLayout: 'default#image', coordinates: [45.020729, 38.969019], preset: 'islands#glyphCircleIcon', balloonContent: 'Эту парочку заметили прохожие, несмотря на маскировку и зонтики', iconColor: 'green'},
+{name: 'Цирк', iconImageHref: 'https://image.flaticon.com/icons/png/512/1020/1020667.png', iconLayout: 'default#image', coordinates: [45.038585, 38.971863], preset: 'islands#glyphCircleIcon', balloonContent: 'Круглая арена, шатер - все, что нужно для этого места', iconColor: 'green'},
+{name: 'Мальчик на слоне', iconImageHref: 'https://image.flaticon.com/icons/svg/713/713996.svg', iconLayout: 'default#image', coordinates: [45.021748, 38.966605], preset: 'islands#glyphCircleIcon', balloonContent: 'Его видели в компании подростка и зеленого зубастого ящера', iconColor: 'green'},
+{name: 'Coffee and the city', iconImageHref: 'https://image.flaticon.com/icons/svg/220/220087.svg', iconLayout: 'default#image', coordinates: [45.022608, 38.969363], preset: 'islands#glyphCircleIcon', balloonContent: 'Говорят, Тукан в последнее время употребляет ужасное количество кофеина. Скорее спасите птичку от привычки!', iconColor: 'green'},
+]

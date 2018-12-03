@@ -1,0 +1,22 @@
+<div *ngIf="place" class='pl'>
+	<h3>{{place.name}}</h3>
+	<p><b>{{place.location}}</b></p>
+	<blockquote>{{place.story}}</blockquote>
+	<img src='{{place.photo}}'/>
+	<div>
+		<label>Здесь вы можете оставить свой отзыв на это место:
+			<p>
+				<input [(ngModel)]="place.userResponse" placeholder="Отзыв" class='inp'>
+			</p>
+			<div>
+				<span>{{place.userResponse}}</span>
+			</div>
+			<p>
+				<input type='button' value='Отправить' class='snd'>
+			</p>
+			<p>
+				<input type='button' value='Геолокация' class='snd'>
+			</p>
+		</label>
+	</div>
+</div>

@@ -1,0 +1,23 @@
+.inp {
+	width: 500px;
+	height: 50px;
+	border-radius: 5px;
+	color: white;
+	background-color: lightgrey;
+	border: none;
+	font-size: 15px;
+}
+
+.snd {
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	background-color: orange;
+	border: none;
+}
+
+.pl {
+	margin-left: 10px;
+}

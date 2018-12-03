@@ -1,0 +1,11 @@
+<h2>Достопримечательности</h2>
+<ul class='places'>
+	<li *ngFor="let place of places" [class.selected]="place === selectedPlace" (click)="onSelect(place)">
+		<p>
+			<span class="badge">
+				<strong>{{place.name | uppercase}}</strong>
+			</span>
+		</p>
+	</li>
+</ul>
+<app-place-detail [place]="selectedPlace"></app-place-detail>

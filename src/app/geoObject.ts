@@ -1,0 +1,8 @@
+export const geoObject = [
+{name: 'Дуб', iconImageHref: 'https://image.flaticon.com/icons/svg/100/100682.svg', iconLayout: 'default#image', coordinates: [45.059286, 38.992424], preset: 'islands#glyphCircleIcon', balloonContent: 'Дуб', iconColor: 'green'},
+{name: 'Табличка', iconImageHref: 'https://image.flaticon.com/icons/png/512/1066/1066025.png', iconLayout: 'default#image', coordinates: [45.057431, 38.989528], preset: 'islands#glyphCircleIcon', balloonContent: 'Табличка', iconColor: 'green'},
+{name: 'Павильон', iconImageHref: 'https://image.flaticon.com/icons/svg/869/869802.svg', iconLayout: 'default#image', coordinates: [45.059825, 38.997405], preset: 'islands#glyphCircleIcon', balloonContent: 'Старый павильон', iconColor: 'green'},
+{name: 'Мемориал', iconImageHref: 'https://image.flaticon.com/icons/svg/804/804416.svg', iconLayout: 'default#image', coordinates: [45.060540, 38.993364], preset: 'islands#glyphCircleIcon', balloonContent: 'Мемориал', iconColor: 'green'},
+{name: 'Самолет', iconImageHref: 'https://image.flaticon.com/icons/svg/1078/1078005.svg', iconLayout: 'default#image', coordinates: [45.061141, 38.990828], preset: 'islands#glyphCircleIcon', balloonContent: 'Самолет', iconColor: 'green'},
+{name: 'Забошенная летняя эстрада', iconImageHref: 'https://image.flaticon.com/icons/svg/83/83529.svg', iconLayout: 'default#image', coordinates: [45.057769, 38.997685], preset: 'islands#glyphCircleIcon', balloonContent: 'Самолет', iconColor: 'green'},
+]
